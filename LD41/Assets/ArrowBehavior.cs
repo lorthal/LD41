@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ArrowBehavior : MonoBehaviour {
-    GameObject Player;
-    GameObject Target;
+    public GameObject Player;
+    public GameObject Target;
     Transform tP;
     Transform tT;
 
@@ -19,6 +19,6 @@ public class ArrowBehavior : MonoBehaviour {
     {
         transform.position = new Vector3(tP.position.x, tP.position.y, tP.position.z);
 
-        transform.rotation = new Quaternion();
+        //transform.rotation = new Quaternion();
     }
 }
