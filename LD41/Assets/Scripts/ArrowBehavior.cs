@@ -19,7 +19,7 @@ public class ArrowBehavior : MonoBehaviour {
         tH = Player.transform;
         tT = Target.transform;
 
-        transform.position = new Vector3( tH.position.x , 1.8f + offsetY , tH.position.z );
+        //transform.position = new Vector3( tH.position.x , 1.8f + offsetY , tH.position.z );
         transform.rotation = Quaternion.LookRotation( transform.position - tT.position );
 
     }
