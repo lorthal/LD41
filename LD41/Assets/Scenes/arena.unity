@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -300,6 +300,7 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 4583647753397008, guid: dceb2900e68ce754d821d2ee045dbd98, type: 2}
 =======
 <<<<<<< HEAD
@@ -308,10 +309,14 @@ Prefab:
     - target: {fileID: 4464916694281358, guid: 3d24574169a207349b6d8d6aa7706462, type: 2}
 >>>>>>> 757bfd2f9514a5f6d910491e8b96ea04a97e1c56
 >>>>>>> parent of 03978c4... Revert "Merge branch 'master' of https://github.com/lorthal/LD41"
+=======
+    - target: {fileID: 4672771647768414, guid: d9991c34b0453fb48a0d3422f60016f5, type: 2}
+>>>>>>> parent of 4d69fd2... Revert "dodanie pilki i pomyslow"
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 4583647753397008, guid: dceb2900e68ce754d821d2ee045dbd98, type: 2}
 =======
 <<<<<<< HEAD
@@ -320,10 +325,14 @@ Prefab:
     - target: {fileID: 4464916694281358, guid: 3d24574169a207349b6d8d6aa7706462, type: 2}
 >>>>>>> 757bfd2f9514a5f6d910491e8b96ea04a97e1c56
 >>>>>>> parent of 03978c4... Revert "Merge branch 'master' of https://github.com/lorthal/LD41"
+=======
+    - target: {fileID: 4672771647768414, guid: d9991c34b0453fb48a0d3422f60016f5, type: 2}
+>>>>>>> parent of 4d69fd2... Revert "dodanie pilki i pomyslow"
       propertyPath: m_LocalPosition.y
       value: 15
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 4583647753397008, guid: dceb2900e68ce754d821d2ee045dbd98, type: 2}
 =======
 <<<<<<< HEAD
@@ -332,10 +341,14 @@ Prefab:
     - target: {fileID: 4464916694281358, guid: 3d24574169a207349b6d8d6aa7706462, type: 2}
 >>>>>>> 757bfd2f9514a5f6d910491e8b96ea04a97e1c56
 >>>>>>> parent of 03978c4... Revert "Merge branch 'master' of https://github.com/lorthal/LD41"
+=======
+    - target: {fileID: 4672771647768414, guid: d9991c34b0453fb48a0d3422f60016f5, type: 2}
+>>>>>>> parent of 4d69fd2... Revert "dodanie pilki i pomyslow"
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 4583647753397008, guid: dceb2900e68ce754d821d2ee045dbd98, type: 2}
 =======
 <<<<<<< HEAD
@@ -344,10 +357,14 @@ Prefab:
     - target: {fileID: 4464916694281358, guid: 3d24574169a207349b6d8d6aa7706462, type: 2}
 >>>>>>> 757bfd2f9514a5f6d910491e8b96ea04a97e1c56
 >>>>>>> parent of 03978c4... Revert "Merge branch 'master' of https://github.com/lorthal/LD41"
+=======
+    - target: {fileID: 4672771647768414, guid: d9991c34b0453fb48a0d3422f60016f5, type: 2}
+>>>>>>> parent of 4d69fd2... Revert "dodanie pilki i pomyslow"
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 4583647753397008, guid: dceb2900e68ce754d821d2ee045dbd98, type: 2}
 =======
 <<<<<<< HEAD
@@ -356,10 +373,14 @@ Prefab:
     - target: {fileID: 4464916694281358, guid: 3d24574169a207349b6d8d6aa7706462, type: 2}
 >>>>>>> 757bfd2f9514a5f6d910491e8b96ea04a97e1c56
 >>>>>>> parent of 03978c4... Revert "Merge branch 'master' of https://github.com/lorthal/LD41"
+=======
+    - target: {fileID: 4672771647768414, guid: d9991c34b0453fb48a0d3422f60016f5, type: 2}
+>>>>>>> parent of 4d69fd2... Revert "dodanie pilki i pomyslow"
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 4583647753397008, guid: dceb2900e68ce754d821d2ee045dbd98, type: 2}
 =======
 <<<<<<< HEAD
@@ -368,27 +389,31 @@ Prefab:
     - target: {fileID: 4464916694281358, guid: 3d24574169a207349b6d8d6aa7706462, type: 2}
 >>>>>>> 757bfd2f9514a5f6d910491e8b96ea04a97e1c56
 >>>>>>> parent of 03978c4... Revert "Merge branch 'master' of https://github.com/lorthal/LD41"
+=======
+    - target: {fileID: 4672771647768414, guid: d9991c34b0453fb48a0d3422f60016f5, type: 2}
+>>>>>>> parent of 4d69fd2... Revert "dodanie pilki i pomyslow"
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
     - target: {fileID: 4583647753397008, guid: dceb2900e68ce754d821d2ee045dbd98, type: 2}
 =======
 <<<<<<< HEAD
     - target: {fileID: 4672771647768414, guid: d9991c34b0453fb48a0d3422f60016f5, type: 2}
 >>>>>>> parent of 03978c4... Revert "Merge branch 'master' of https://github.com/lorthal/LD41"
+=======
+    - target: {fileID: 4672771647768414, guid: d9991c34b0453fb48a0d3422f60016f5, type: 2}
+>>>>>>> parent of 4d69fd2... Revert "dodanie pilki i pomyslow"
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4583647753397008, guid: dceb2900e68ce754d821d2ee045dbd98, type: 2}
+    - target: {fileID: 4672771647768414, guid: d9991c34b0453fb48a0d3422f60016f5, type: 2}
       propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1882928557372208, guid: dceb2900e68ce754d821d2ee045dbd98, type: 2}
-      propertyPath: m_Name
-      value: PILKA
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_ParentPrefab: {fileID: 100100000, guid: dceb2900e68ce754d821d2ee045dbd98, type: 2}
 =======
@@ -418,6 +443,9 @@ Prefab:
   m_ParentPrefab: {fileID: 100100000, guid: 3d24574169a207349b6d8d6aa7706462, type: 2}
 >>>>>>> 757bfd2f9514a5f6d910491e8b96ea04a97e1c56
 >>>>>>> parent of 03978c4... Revert "Merge branch 'master' of https://github.com/lorthal/LD41"
+=======
+  m_ParentPrefab: {fileID: 100100000, guid: d9991c34b0453fb48a0d3422f60016f5, type: 2}
+>>>>>>> parent of 4d69fd2... Revert "dodanie pilki i pomyslow"
   m_IsPrefabParent: 0
 --- !u!1001 &1254379446
 Prefab:
@@ -563,8 +591,9 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 105.00006, y: 103.40484, z: 5.0000343}
   m_Center: {x: 1.7763589e-14, y: -0.0000014700286, z: 2.5000005}
---- !u!1 &1713147475
+--- !u!1 &1713147475 stripped
 GameObject:
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1882928557372208, guid: dceb2900e68ce754d821d2ee045dbd98,
@@ -586,107 +615,11 @@ GameObject:
   m_PrefabParentObject: {fileID: 1449504513041594, guid: 3d24574169a207349b6d8d6aa7706462,
 >>>>>>> 757bfd2f9514a5f6d910491e8b96ea04a97e1c56
 >>>>>>> parent of 03978c4... Revert "Merge branch 'master' of https://github.com/lorthal/LD41"
+=======
+  m_PrefabParentObject: {fileID: 1102837955032574, guid: d9991c34b0453fb48a0d3422f60016f5,
+>>>>>>> parent of 4d69fd2... Revert "dodanie pilki i pomyslow"
     type: 2}
   m_PrefabInternal: {fileID: 1082278016}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1713147476}
-  - component: {fileID: 1713147479}
-  - component: {fileID: 1713147478}
-  - component: {fileID: 1713147477}
-  - component: {fileID: 1713147480}
-  m_Layer: 0
-  m_Name: PILKA
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1713147476
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4583647753397008, guid: dceb2900e68ce754d821d2ee045dbd98,
-    type: 2}
-  m_PrefabInternal: {fileID: 1082278016}
-  m_GameObject: {fileID: 1713147475}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.66, y: 1.968, z: -26.128}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1713147477
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 23340170729531150, guid: dceb2900e68ce754d821d2ee045dbd98,
-    type: 2}
-  m_PrefabInternal: {fileID: 1082278016}
-  m_GameObject: {fileID: 1713147475}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 2f60366c931ce3f438484cdf53268025, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!135 &1713147478
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 135301432449474990, guid: dceb2900e68ce754d821d2ee045dbd98,
-    type: 2}
-  m_PrefabInternal: {fileID: 1082278016}
-  m_GameObject: {fileID: 1713147475}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &1713147479
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 33425971561721358, guid: dceb2900e68ce754d821d2ee045dbd98,
-    type: 2}
-  m_PrefabInternal: {fileID: 1082278016}
-  m_GameObject: {fileID: 1713147475}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!54 &1713147480
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1713147475}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1001 &1811768489
 Prefab:
   m_ObjectHideFlags: 0
