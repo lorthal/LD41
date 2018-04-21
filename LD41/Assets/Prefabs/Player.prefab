@@ -852,6 +852,8 @@ GameObject:
   - component: {fileID: 114658029366920642}
   - component: {fileID: 114386393397183996}
   - component: {fileID: 114115361575396340}
+  - component: {fileID: 114245870170292240}
+  - component: {fileID: 114373048436123390}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2036,6 +2038,37 @@ MonoBehaviour:
   ikActive: 1
   rightHandObj: {fileID: 0}
   lookObj: {fileID: 0}
+  noelo: {fileID: 0}
+--- !u!114 &114245870170292240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1812972150828188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92776c3c8e4c692439a136d9bce487ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ikActive: 0
+  rightHandObj: {fileID: 0}
+  lookObj: {fileID: 0}
+  noelo: {fileID: 0}
+--- !u!114 &114373048436123390
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1812972150828188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92776c3c8e4c692439a136d9bce487ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ikActive: 0
+  rightHandObj: {fileID: 0}
+  lookObj: {fileID: 0}
+  noelo: {fileID: 0}
 --- !u!114 &114386393397183996
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2051,6 +2084,8 @@ MonoBehaviour:
   turnSmoothing: 0.06
   sprintFOV: 100
   sprintButton: Sprint
+  verticalButton: Vertical
+  horizontalButton: Horizontal
 --- !u!114 &114658029366920642
 MonoBehaviour:
   m_ObjectHideFlags: 1
