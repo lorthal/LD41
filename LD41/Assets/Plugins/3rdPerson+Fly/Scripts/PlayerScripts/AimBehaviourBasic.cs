@@ -125,8 +125,8 @@ public class AimBehaviourBasic : GenericBehaviour
     {
         if (crosshair)
         {
-            GUI.DrawTexture(new Rect(Screen.width / 2.0f - (crosshair.width * 0.5f),
-                                         Screen.height / 2.0f - (crosshair.height * 0.5f),
+            GUI.DrawTexture(new Rect(behaviourManager.playerCamera.GetComponent<Camera>().pixelRect.center.x - (crosshair.width * 0.5f),
+                behaviourManager.playerCamera.GetComponent<Camera>().pixelRect.center.y - (crosshair.height * 0.5f),
                                          crosshair.width, crosshair.height), crosshair);
         }
     }
