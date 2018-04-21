@@ -358,6 +358,16 @@ Prefab:
       propertyPath: playerCamera
       value: 
       objectReference: {fileID: 714474299}
+    - target: {fileID: 114115361575396340, guid: 82d213b39ac6c464fb73e263fd71db03,
+        type: 2}
+      propertyPath: rightHandObj
+      value: 
+      objectReference: {fileID: 1713147476}
+    - target: {fileID: 114115361575396340, guid: 82d213b39ac6c464fb73e263fd71db03,
+        type: 2}
+      propertyPath: lookObj
+      value: 
+      objectReference: {fileID: 1713147476}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82d213b39ac6c464fb73e263fd71db03, type: 2}
   m_IsPrefabParent: 0
@@ -536,25 +546,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2145726430 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1812972150828188, guid: 82d213b39ac6c464fb73e263fd71db03,
-    type: 2}
-  m_PrefabInternal: {fileID: 1517064331}
---- !u!114 &2145726431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2145726430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92776c3c8e4c692439a136d9bce487ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ikActive: 0
-  rightHandObj: {fileID: 1713147476}
-  lookObj: {fileID: 1713147476}
 --- !u!4 &2145726438 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4412567246909484, guid: 82d213b39ac6c464fb73e263fd71db03,
