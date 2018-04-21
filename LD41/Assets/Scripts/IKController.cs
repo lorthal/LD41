@@ -8,6 +8,7 @@ public class IKController : MonoBehaviour
     public bool ikActive = false;
     public Transform rightHandObj = null;
     public Transform lookObj = null;
+    public Transform noelo = null;
 
     private Animator animator;
     // Use this for initialization
@@ -27,6 +28,11 @@ public class IKController : MonoBehaviour
 
                 // Set the look target position, if one has been assigned
                 if (lookObj != null)
+                {
+                    animator.SetLookAtWeight(1);
+                    animator.SetLookAtPosition(lookObj.position);
+                }
+                if (noelo != null)
                 {
                     animator.SetLookAtWeight(1);
                     animator.SetLookAtPosition(lookObj.position);
