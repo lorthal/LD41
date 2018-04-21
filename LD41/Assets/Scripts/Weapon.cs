@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
+    [Header("Look rotation")]
     public Camera playerCamera;
     public Transform rifleFront;
     public Transform lookAtTarget;
-    public float rotationSpeed = 100;
     public string enemyPlayerLayer;
 
     [Header("Shooting")]
@@ -16,6 +16,8 @@ public class Weapon : MonoBehaviour
     public int ammo = 1;
     public float shootCooldown;
     public float bulletSpeed;
+
+    [Header("Controlls")] public string fireButton;
 
     private LayerMask layerMask;
 
@@ -40,7 +42,7 @@ public class Weapon : MonoBehaviour
             lookAtTarget.position = hit.point;
             transform.LookAt(lookAtTarget.position);
 
-            if (Input.GetMouseButton(0))
+            if (Input.GetButtonDown(fireButton))
             {
                 if (CanShoot())
                 {

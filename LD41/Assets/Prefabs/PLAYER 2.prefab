@@ -81,7 +81,7 @@ GameObject:
   - component: {fileID: 4843054484816014}
   - component: {fileID: 33873843301994670}
   - component: {fileID: 23945873540405392}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: LookAtTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,7 +156,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4716200089928332}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: LeftthandGrab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4214485451217100}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: RighthandGrab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -399,7 +399,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4567985741248746}
   - component: {fileID: 114753881626104452}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: Weapon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -444,7 +444,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4075825544670764}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: RifleFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -837,7 +837,7 @@ GameObject:
   - component: {fileID: 4513742095422854}
   - component: {fileID: 33095842448258710}
   - component: {fileID: 23977783240038080}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: basooka_v01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1259,8 +1259,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1862728725114362}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15, y: 0, z: -29}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 40}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4611818594755768}
@@ -1268,7 +1268,7 @@ Transform:
   - {fileID: 4021079540307682}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &4080233090926296
 Transform:
   m_ObjectHideFlags: 1
@@ -2492,8 +2492,13 @@ MonoBehaviour:
   playerCamera: {fileID: 0}
   rifleFront: {fileID: 4075825544670764}
   lookAtTarget: {fileID: 4843054484816014}
-  rotationSpeed: 100
   enemyPlayerLayer: Player1
+  bulletPrefab: {fileID: 1705464813075676, guid: 48f639ba049f62642b5042f5c6a83641,
+    type: 2}
+  ammo: 2
+  shootCooldown: 1
+  bulletSpeed: 100
+  fireButton: Fire1Joystick
 --- !u!114 &114779765657470664
 MonoBehaviour:
   m_ObjectHideFlags: 1
