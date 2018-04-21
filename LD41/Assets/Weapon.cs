@@ -4,20 +4,32 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
+    public Camera playerCamera;
     public Transform rifleFront;
+    public Transform lookAtTarget;
     public float rotationSpeed = 100;
+    public string enemyPlayerLayer;
+
+    private LayerMask layerMask;
+
+    void Start()
+    {
+
+        layerMask = LayerMask.GetMask("Enviro", "Ball", enemyPlayerLayer);
+    }
 
     void Update()
     {
-        Ray cameraRay = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
+        Ray cameraRay = playerCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
 
         RaycastHit hit;
 
-        if (Physics.Raycast(cameraRay, out hit, 100f))
+        if (Physics.Raycast(cameraRay, out hit, layerMask))
         {
             Ray rifleRay = new Ray(rifleFront.position, (hit.point - rifleFront.position));
 
-            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(rifleRay.direction, Vector3.up), Time.deltaTime * rotationSpeed);
+            lookAtTarget.position = hit.point;
+            transform.LookAt(lookAtTarget.position);
 
             if (Input.GetMouseButton(0))
             {
