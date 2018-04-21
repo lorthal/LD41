@@ -13,6 +13,8 @@ public class Weapon : MonoBehaviour
     [Header("Shooting")]
     public GameObject bulletPrefab;
 
+    public int maxAmmo = 5;
+
     public int ammo = 1;
     public float shootCooldown;
     public float bulletSpeed;
@@ -69,5 +71,15 @@ public class Weapon : MonoBehaviour
 
         ammo--;
         timer = shootCooldown;
+    }
+
+    public bool CanPickupAmmo()
+    {
+        return ammo < maxAmmo;
+    }
+
+    public void PickupAmmo(int amount)
+    {
+        ammo += amount;
     }
 }
