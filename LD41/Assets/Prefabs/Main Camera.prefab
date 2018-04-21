@@ -36,8 +36,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1493425239272984}
-  m_LocalRotation: {x: 0.23497246, y: -0, z: -0, w: 0.972002}
-  m_LocalPosition: {x: 0, y: 4.46, z: -7.27}
+  m_LocalRotation: {x: -0.12285422, y: -0.38167334, z: -0.051265102, w: 0.91466075}
+  m_LocalPosition: {x: -10.984493, y: 0.17291445, z: -30.003008}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -61,7 +61,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 60.00007
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   pivotOffset: {x: 0, y: 1, z: 0}
-  camOffset: {x: 0.4, y: 0.5, z: -5}
+  camOffset: {x: 0.4, y: 0.5, z: -2}
   smooth: 10
   horizontalAimingSpeed: 6
   verticalAimingSpeed: 6
