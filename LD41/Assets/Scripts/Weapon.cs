@@ -10,6 +10,8 @@ public class Weapon : MonoBehaviour
     public float rotationSpeed = 100;
     public string enemyPlayerLayer;
 
+    [Space] public GameObject bulletPrefab;
+
     private LayerMask layerMask;
 
     void Start()
@@ -36,5 +38,10 @@ public class Weapon : MonoBehaviour
                 Debug.DrawRay(rifleRay.origin, rifleRay.direction * 100, Color.red);
             }
         }
+    }
+
+    void Shoot()
+    {
+        
     }
 }
