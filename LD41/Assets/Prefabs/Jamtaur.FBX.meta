@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: 8a72495436bf9cd4e9367ba34c3b531c
+timeCreated: 1524349737
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Be_Doge_Spine
+    100002: Be_Hand
+    100004: Be_Human_Head
+    100006: Be_L_Back_Leg
+    100008: Be_L_Fingers
+    100010: Be_L_Front_Leg
+    100012: Be_L_Hand
+    100014: Be_L_Scapula
+    100016: Be_L_Thumb
+    100018: Be_L_TriggerFinger
+    100020: Be_R_Back_Leg
+    100022: Be_R_Fingers
+    100024: Be_R_Front_Leg
+    100026: Be_R_Scapula
+    100028: Be_R_Thumb
+    100030: Be_R_TriggerFinger
+    100032: Be_Tail
+    100034: Bn_Doge_Root
+    100036: Bn_Doge_Spine_A
+    100038: Bn_Doge_Spine_B
+    100040: Bn_Doge_Spine_C
+    100042: Bn_Doge_Spine_D
+    100044: Bn_Human_Chest
+    100046: Bn_Human_Head
+    100048: Bn_Human_Neck
+    100050: Bn_Human_Root
+    100052: Bn_Human_Spine_A
+    100054: Bn_Human_Spine_B
+    100056: Bn_L_Arm_A
+    100058: Bn_L_Arm_B
+    100060: Bn_L_Arm_C
+    100062: Bn_L_Back_Leg_A
+    100064: Bn_L_Back_Leg_B
+    100066: Bn_L_Back_Leg_C
+    100068: Bn_L_Fingers_A
+    100070: Bn_L_Fingers_B
+    100072: Bn_L_Fingers_C
+    100074: Bn_L_Front_Leg_A
+    100076: Bn_L_Front_Leg_B
+    100078: Bn_L_Front_Leg_C
+    100080: Bn_L_Hand
+    100082: Bn_L_Scapula
+    100084: Bn_L_Thumb_A
+    100086: Bn_L_Thumb_B
+    100088: Bn_L_Thumb_C
+    100090: Bn_L_TriggerFinger_A
+    100092: Bn_L_TriggerFinger_B
+    100094: Bn_L_TriggerFinger_C
+    100096: Bn_R_Arm_A
+    100098: Bn_R_Arm_B
+    100100: Bn_R_Arm_C
+    100102: Bn_R_Back_Leg_A
+    100104: Bn_R_Back_Leg_B
+    100106: Bn_R_Back_Leg_C
+    100108: Bn_R_Fingers_A
+    100110: Bn_R_Fingers_B
+    100112: Bn_R_Fingers_C
+    100114: Bn_R_Front_Leg_A
+    100116: Bn_R_Front_Leg_B
+    100118: Bn_R_Front_Leg_C
+    100120: Bn_R_Hand
+    100122: Bn_R_Scapula
+    100124: Bn_R_Thumb_A
+    100126: Bn_R_Thumb_B
+    100128: Bn_R_Thumb_C
+    100130: Bn_R_TriggerFinger_A
+    100132: Bn_R_TriggerFinger_B
+    100134: Bn_R_TriggerFinger_C
+    100136: Bn_Tail_A
+    100138: Bn_Tail_B
+    100140: Bn_Tail_C
+    100142: Bn_Tail_D
+    100144: Bn_Tail_E
+    100146: Bn_Tail_F
+    100148: //RootNode
+    100150: Jamtaur
+    400000: Be_Doge_Spine
+    400002: Be_Hand
+    400004: Be_Human_Head
+    400006: Be_L_Back_Leg
+    400008: Be_L_Fingers
+    400010: Be_L_Front_Leg
+    400012: Be_L_Hand
+    400014: Be_L_Scapula
+    400016: Be_L_Thumb
+    400018: Be_L_TriggerFinger
+    400020: Be_R_Back_Leg
+    400022: Be_R_Fingers
+    400024: Be_R_Front_Leg
+    400026: Be_R_Scapula
+    400028: Be_R_Thumb
+    400030: Be_R_TriggerFinger
+    400032: Be_Tail
+    400034: Bn_Doge_Root
+    400036: Bn_Doge_Spine_A
+    400038: Bn_Doge_Spine_B
+    400040: Bn_Doge_Spine_C
+    400042: Bn_Doge_Spine_D
+    400044: Bn_Human_Chest
+    400046: Bn_Human_Head
+    400048: Bn_Human_Neck
+    400050: Bn_Human_Root
+    400052: Bn_Human_Spine_A
+    400054: Bn_Human_Spine_B
+    400056: Bn_L_Arm_A
+    400058: Bn_L_Arm_B
+    400060: Bn_L_Arm_C
+    400062: Bn_L_Back_Leg_A
+    400064: Bn_L_Back_Leg_B
+    400066: Bn_L_Back_Leg_C
+    400068: Bn_L_Fingers_A
+    400070: Bn_L_Fingers_B
+    400072: Bn_L_Fingers_C
+    400074: Bn_L_Front_Leg_A
+    400076: Bn_L_Front_Leg_B
+    400078: Bn_L_Front_Leg_C
+    400080: Bn_L_Hand
+    400082: Bn_L_Scapula
+    400084: Bn_L_Thumb_A
+    400086: Bn_L_Thumb_B
+    400088: Bn_L_Thumb_C
+    400090: Bn_L_TriggerFinger_A
+    400092: Bn_L_TriggerFinger_B
+    400094: Bn_L_TriggerFinger_C
+    400096: Bn_R_Arm_A
+    400098: Bn_R_Arm_B
+    400100: Bn_R_Arm_C
+    400102: Bn_R_Back_Leg_A
+    400104: Bn_R_Back_Leg_B
+    400106: Bn_R_Back_Leg_C
+    400108: Bn_R_Fingers_A
+    400110: Bn_R_Fingers_B
+    400112: Bn_R_Fingers_C
+    400114: Bn_R_Front_Leg_A
+    400116: Bn_R_Front_Leg_B
+    400118: Bn_R_Front_Leg_C
+    400120: Bn_R_Hand
+    400122: Bn_R_Scapula
+    400124: Bn_R_Thumb_A
+    400126: Bn_R_Thumb_B
+    400128: Bn_R_Thumb_C
+    400130: Bn_R_TriggerFinger_A
+    400132: Bn_R_TriggerFinger_B
+    400134: Bn_R_TriggerFinger_C
+    400136: Bn_Tail_A
+    400138: Bn_Tail_B
+    400140: Bn_Tail_C
+    400142: Bn_Tail_D
+    400144: Bn_Tail_E
+    400146: Bn_Tail_F
+    400148: //RootNode
+    400150: Jamtaur
+    2100000: 'Material #27'
+    4300000: Jamtaur
+    9500000: //RootNode
+    13700000: Jamtaur
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
