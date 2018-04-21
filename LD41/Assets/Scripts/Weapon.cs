@@ -10,9 +10,16 @@ public class Weapon : MonoBehaviour
     public float rotationSpeed = 100;
     public string enemyPlayerLayer;
 
-    [Space] public GameObject bulletPrefab;
+    [Header("Shooting")]
+    public GameObject bulletPrefab;
+
+    public int ammo = 1;
+    public float shootCooldown;
+    public float bulletSpeed;
 
     private LayerMask layerMask;
+
+    private float timer;
 
     void Start()
     {
@@ -35,13 +42,30 @@ public class Weapon : MonoBehaviour
 
             if (Input.GetMouseButton(0))
             {
+                if (CanShoot())
+                {
+                    Shoot();
+                }
                 Debug.DrawRay(rifleRay.origin, rifleRay.direction * 100, Color.red);
             }
         }
+        timer -= Time.deltaTime;
+
+    }
+
+    private bool CanShoot()
+    {
+        return timer <= 0 && ammo > 0;
     }
 
     void Shoot()
     {
-        
+        GameObject rocket = Instantiate(bulletPrefab, rifleFront.position, Quaternion.LookRotation(rifleFront.forward));
+        ConstantForce force = rocket.AddComponent<ConstantForce>();
+
+        force.force = -rifleFront.forward * bulletSpeed;
+
+        ammo--;
+        timer = shootCooldown;
     }
 }

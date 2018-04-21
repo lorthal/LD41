@@ -171,6 +171,51 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 1063889087114522, guid: b85f122e2c718474fb12c08383f38161, type: 2}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1064045609529698, guid: b85f122e2c718474fb12c08383f38161, type: 2}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316641862044910, guid: b85f122e2c718474fb12c08383f38161, type: 2}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725240301098526, guid: b85f122e2c718474fb12c08383f38161, type: 2}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290947585139340, guid: b85f122e2c718474fb12c08383f38161, type: 2}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024267223477562, guid: b85f122e2c718474fb12c08383f38161, type: 2}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 114753881626104452, guid: b85f122e2c718474fb12c08383f38161,
+        type: 2}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 1705464813075676, guid: 48f639ba049f62642b5042f5c6a83641,
+        type: 2}
+    - target: {fileID: 114753881626104452, guid: b85f122e2c718474fb12c08383f38161,
+        type: 2}
+      propertyPath: shootCooldown
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114753881626104452, guid: b85f122e2c718474fb12c08383f38161,
+        type: 2}
+      propertyPath: ammo
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114753881626104452, guid: b85f122e2c718474fb12c08383f38161,
+        type: 2}
+      propertyPath: bulletSpeed
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b85f122e2c718474fb12c08383f38161, type: 2}
   m_IsPrefabParent: 0
@@ -266,9 +311,9 @@ Light:
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
+    m_Bias: 0
+    m_NormalBias: 0
+    m_NearPlane: 0.1
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
@@ -462,6 +507,51 @@ Prefab:
       propertyPath: Target
       value: 
       objectReference: {fileID: 1713147475}
+    - target: {fileID: 1133173521200482, guid: c1f6b3ed4d2d21d4594c300ae47fc02b, type: 2}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1995198091223538, guid: c1f6b3ed4d2d21d4594c300ae47fc02b, type: 2}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1737291287390476, guid: c1f6b3ed4d2d21d4594c300ae47fc02b, type: 2}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1822384544372158, guid: c1f6b3ed4d2d21d4594c300ae47fc02b, type: 2}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1058701357218964, guid: c1f6b3ed4d2d21d4594c300ae47fc02b, type: 2}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1978983433580150, guid: c1f6b3ed4d2d21d4594c300ae47fc02b, type: 2}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 114346903035839820, guid: c1f6b3ed4d2d21d4594c300ae47fc02b,
+        type: 2}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 1705464813075676, guid: 48f639ba049f62642b5042f5c6a83641,
+        type: 2}
+    - target: {fileID: 114346903035839820, guid: c1f6b3ed4d2d21d4594c300ae47fc02b,
+        type: 2}
+      propertyPath: shootCooldown
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114346903035839820, guid: c1f6b3ed4d2d21d4594c300ae47fc02b,
+        type: 2}
+      propertyPath: ammo
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114346903035839820, guid: c1f6b3ed4d2d21d4594c300ae47fc02b,
+        type: 2}
+      propertyPath: bulletSpeed
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c1f6b3ed4d2d21d4594c300ae47fc02b, type: 2}
   m_IsPrefabParent: 0
