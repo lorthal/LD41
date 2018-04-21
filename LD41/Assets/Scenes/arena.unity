@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 216265052}
   - component: {fileID: 216265051}
   m_Layer: 0
-  m_Name: STRZALKA
+  m_Name: STRZALKA 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -155,7 +155,7 @@ Transform:
   m_Children:
   - {fileID: 365265814}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &259676451
 GameObject:
@@ -296,7 +296,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4390336656942864, guid: 120b0f08f21a9d547b9fd08cf19c33d9, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4390336656942864, guid: 120b0f08f21a9d547b9fd08cf19c33d9, type: 2}
       propertyPath: m_LocalScale.x
@@ -379,7 +379,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4412567246909484, guid: 82d213b39ac6c464fb73e263fd71db03, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114386393397183996, guid: 82d213b39ac6c464fb73e263fd71db03,
         type: 2}
@@ -388,7 +388,7 @@ Prefab:
       objectReference: {fileID: 844874324}
     - target: {fileID: 1812972150828188, guid: 82d213b39ac6c464fb73e263fd71db03, type: 2}
       propertyPath: m_Name
-      value: Player (1)
+      value: PLAYER 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82d213b39ac6c464fb73e263fd71db03, type: 2}
@@ -629,6 +629,10 @@ Prefab:
       propertyPath: YAxis
       value: Mouse Y
       objectReference: {fileID: 0}
+    - target: {fileID: 1493425239272984, guid: b2555f2b6af7ff3448bc738d891c195b, type: 2}
+      propertyPath: m_Name
+      value: KAMERA 1 GRACZA
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b2555f2b6af7ff3448bc738d891c195b, type: 2}
   m_IsPrefabParent: 0
@@ -669,7 +673,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4412567246909484, guid: 82d213b39ac6c464fb73e263fd71db03, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 114386393397183996, guid: 82d213b39ac6c464fb73e263fd71db03,
         type: 2}
@@ -705,6 +709,10 @@ Prefab:
         type: 2}
       propertyPath: shoulderButton
       value: Aim Shoulder2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1812972150828188, guid: 82d213b39ac6c464fb73e263fd71db03, type: 2}
+      propertyPath: m_Name
+      value: PLAYER 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82d213b39ac6c464fb73e263fd71db03, type: 2}
@@ -757,7 +765,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1713147477
 MeshRenderer:
@@ -867,7 +875,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4113201648047136, guid: b2555f2b6af7ff3448bc738d891c195b, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114118622933426534, guid: b2555f2b6af7ff3448bc738d891c195b,
         type: 2}
@@ -880,7 +888,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1493425239272984, guid: b2555f2b6af7ff3448bc738d891c195b, type: 2}
       propertyPath: m_Name
-      value: Main Camera (1)
+      value: KAMERA 2 GRACZA
       objectReference: {fileID: 0}
     - target: {fileID: 20191205921961170, guid: b2555f2b6af7ff3448bc738d891c195b,
         type: 2}
@@ -978,7 +986,7 @@ GameObject:
   - component: {fileID: 2051832791}
   - component: {fileID: 2051832790}
   m_Layer: 0
-  m_Name: STRZALKA (1)
+  m_Name: STRZALKA 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
