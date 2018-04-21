@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 124082408732510186}
   - component: {fileID: 81864283569252354}
   - component: {fileID: 114118622933426534}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -36,13 +36,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1493425239272984}
-  m_LocalRotation: {x: -0.12285422, y: -0.38167334, z: -0.051265102, w: 0.91466075}
-  m_LocalPosition: {x: -10.984493, y: 0.17291445, z: -30.003008}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14.6, y: 1.51, z: -31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 27.18, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &20191205921961170
 Camera:
   m_ObjectHideFlags: 1
@@ -57,14 +57,14 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1
+    width: 0.5
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60.00007
   orthographic: 0
   orthographic size: 5
-  m_Depth: -1
+  m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -105,8 +105,8 @@ MonoBehaviour:
   verticalAimingSpeed: 6
   maxVerticalAngle: 30
   minVerticalAngle: -60
-  XAxis: Analog X
-  YAxis: Analog Y
+  XAxis: Mouse X
+  YAxis: Mouse Y
 --- !u!124 &124082408732510186
 Behaviour:
   m_ObjectHideFlags: 1

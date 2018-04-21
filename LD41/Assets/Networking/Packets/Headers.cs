@@ -1,4 +1,0 @@
-﻿enum Header : ushort
-{
-    Init
-}
