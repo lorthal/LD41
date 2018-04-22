@@ -1261,7 +1261,7 @@ Transform:
   m_GameObject: {fileID: 1862728725114362}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 40}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 4611818594755768}
   - {fileID: 4897371489916592}
@@ -2514,8 +2514,8 @@ MonoBehaviour:
   shoulderButton: Aim Shoulder
   crosshair: {fileID: 2800000, guid: 3f8b06d6ed6ccf84e809ad65ab7fcab4, type: 3}
   aimTurnSmoothing: 0.25
-  aimPivotOffset: {x: 0.5, y: 1.2, z: 0}
-  aimCamOffset: {x: 0, y: 0.4, z: -0.7}
+  aimPivotOffset: {x: 1, y: 1.2, z: 0}
+  aimCamOffset: {x: 0, y: 0.8, z: -1.4}
 --- !u!136 &136862137959776860
 CapsuleCollider:
   m_ObjectHideFlags: 1
