@@ -66,8 +66,10 @@ public class BasicBehaviour : MonoBehaviour
 
 	void Update()
 	{
-		// Store the input axes.
-		h = Input.GetAxis(horizontalButton);
+	    if (MatchController.Instance.state != MatchController.State.Playing) return;
+
+        // Store the input axes.
+        h = Input.GetAxis(horizontalButton);
 		v = Input.GetAxis(verticalButton);
 
 		// Set the input axes on the Animator Controller.
@@ -95,8 +97,9 @@ public class BasicBehaviour : MonoBehaviour
 	// Call the FixedUpdate functions of the active or overriding behaviours.
 	void FixedUpdate()
 	{
-		// Call the active behaviour if no other is overriding.
-		bool isAnyBehaviourActive = false;
+
+        // Call the active behaviour if no other is overriding.
+        bool isAnyBehaviourActive = false;
 		if (behaviourLocked > 0 || overridingBehaviours.Count == 0)
 		{
 			foreach (GenericBehaviour behaviour in behaviours)
@@ -128,8 +131,9 @@ public class BasicBehaviour : MonoBehaviour
 	// Call the LateUpdate functions of the active or overriding behaviours.
 	private void LateUpdate()
 	{
-		// Call the active behaviour if no other is overriding.
-		if (behaviourLocked > 0 || overridingBehaviours.Count == 0)
+
+        // Call the active behaviour if no other is overriding.
+        if (behaviourLocked > 0 || overridingBehaviours.Count == 0)
 		{
 			foreach (GenericBehaviour behaviour in behaviours)
 			{
@@ -310,8 +314,16 @@ public class BasicBehaviour : MonoBehaviour
 		lastDirection = direction;
 	}
 
-	// Put the player on a standing up position based on last direction faced.
-	public void Repositioning()
+    public void Reset()
+    {
+        h = 0;
+        v = 0;
+        anim.SetFloat(hFloat, h, 0.1f, Time.deltaTime);
+        anim.SetFloat(vFloat, v, 0.1f, Time.deltaTime);
+    }
+
+    // Put the player on a standing up position based on last direction faced.
+    public void Repositioning()
 	{
 		if(lastDirection != Vector3.zero)
 		{

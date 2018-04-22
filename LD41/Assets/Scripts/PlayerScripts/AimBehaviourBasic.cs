@@ -23,6 +23,8 @@ public class AimBehaviourBasic : GenericBehaviour
     // Update is used to set features regardless the active behaviour.
     void Update()
     {
+        if (MatchController.Instance.state != MatchController.State.Playing) return;
+
         // Activate/deactivate aim by input.
         if (Input.GetAxisRaw(aimButton) != 0 && !aim)
         {

@@ -199,7 +199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particles: {fileID: 198508360382762256}
-  player: Player1
+  player: Player2
 --- !u!114 &114235911640595048
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -212,7 +212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particles: {fileID: 198317023535360980}
-  player: Player2
+  player: Player1
 --- !u!198 &198317023535360980
 ParticleSystem:
   m_ObjectHideFlags: 1

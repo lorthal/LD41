@@ -35,6 +35,7 @@ public class MoveBehaviour : GenericBehaviour
 	// Update is used to set features regardless the active behaviour.
 	void Update ()
 	{
+        if (MatchController.Instance.state != MatchController.State.Playing) return;
 		// Get jump input.
 		if (!jump && Input.GetButtonDown(jumpButton) && behaviourManager.IsCurrentBehaviour(this.behaviourCode) && !behaviourManager.IsOverriding())
 		{
@@ -110,9 +111,9 @@ public class MoveBehaviour : GenericBehaviour
 		Vector2 dir = new Vector2(horizontal, vertical);
 		speed = Vector2.ClampMagnitude(dir, 1f).magnitude;
 		// This is for PC only, gamepads control speed via analog stick.
-		speedSeeker += Input.GetAxis("Mouse ScrollWheel");
-		speedSeeker = Mathf.Clamp(speedSeeker, walkSpeed, runSpeed);
-		speed *= speedSeeker;
+		//speedSeeker += Input.GetAxis("Mouse ScrollWheel");
+		//speedSeeker = Mathf.Clamp(speedSeeker, walkSpeed, runSpeed);
+		//speed *= speedSeeker;
 		if (behaviourManager.IsSprinting())
 		{
 			speed = sprintSpeed;
@@ -163,4 +164,11 @@ public class MoveBehaviour : GenericBehaviour
 	{
 		isColliding = false;
 	}
+
+    public void Reset()
+    {
+        speed = 0;
+        speedSeeker = 0;
+        behaviourManager.GetAnim.SetFloat(speedFloat, speed, speedDampTime, Time.deltaTime);
+    }
 }
