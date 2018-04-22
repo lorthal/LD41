@@ -9,79 +9,46 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-<<<<<<< HEAD
-  m_RootGameObject: {fileID: 1102837955032574}
-  m_IsPrefabParent: 1
---- !u!1 &1102837955032574
-=======
   m_RootGameObject: {fileID: 1449504513041594}
   m_IsPrefabParent: 1
 --- !u!1 &1449504513041594
->>>>>>> 757bfd2f9514a5f6d910491e8b96ea04a97e1c56
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 4672771647768414}
-  - component: {fileID: 33758868166097914}
-  - component: {fileID: 135274071776348334}
-  - component: {fileID: 23092316836988536}
-  - component: {fileID: 54969890774171800}
-  m_Layer: 0
-=======
   - component: {fileID: 4464916694281358}
   - component: {fileID: 33518239707853208}
   - component: {fileID: 135010636202850898}
   - component: {fileID: 23364681994261508}
   - component: {fileID: 54320095194474060}
   m_Layer: 11
->>>>>>> 757bfd2f9514a5f6d910491e8b96ea04a97e1c56
   m_Name: PILKA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!4 &4672771647768414
-=======
 --- !u!4 &4464916694281358
->>>>>>> 757bfd2f9514a5f6d910491e8b96ea04a97e1c56
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1102837955032574}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.66, y: 1.968, z: -26.128}
-=======
   m_GameObject: {fileID: 1449504513041594}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 7.93, z: 0}
->>>>>>> 757bfd2f9514a5f6d910491e8b96ea04a97e1c56
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
---- !u!23 &23092316836988536
-=======
 --- !u!23 &23364681994261508
->>>>>>> 757bfd2f9514a5f6d910491e8b96ea04a97e1c56
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1102837955032574}
-=======
   m_GameObject: {fileID: 1449504513041594}
->>>>>>> 757bfd2f9514a5f6d910491e8b96ea04a97e1c56
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -110,33 +77,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-<<<<<<< HEAD
---- !u!33 &33758868166097914
-=======
 --- !u!33 &33518239707853208
->>>>>>> 757bfd2f9514a5f6d910491e8b96ea04a97e1c56
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1102837955032574}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!54 &54969890774171800
-=======
   m_GameObject: {fileID: 1449504513041594}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!54 &54320095194474060
->>>>>>> 757bfd2f9514a5f6d910491e8b96ea04a97e1c56
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1102837955032574}
-=======
   m_GameObject: {fileID: 1449504513041594}
->>>>>>> 757bfd2f9514a5f6d910491e8b96ea04a97e1c56
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -146,22 +99,13 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
-<<<<<<< HEAD
---- !u!135 &135274071776348334
-=======
 --- !u!135 &135010636202850898
->>>>>>> 757bfd2f9514a5f6d910491e8b96ea04a97e1c56
 SphereCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1102837955032574}
-  m_Material: {fileID: 0}
-=======
   m_GameObject: {fileID: 1449504513041594}
   m_Material: {fileID: 13400000, guid: 436c548cdb0ceab43bc4b80aef338b87, type: 2}
->>>>>>> 757bfd2f9514a5f6d910491e8b96ea04a97e1c56
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
