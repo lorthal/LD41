@@ -7,6 +7,7 @@ public class ArrowBehavior : MonoBehaviour {
 
     void Update()
     {
-        transform.rotation = Quaternion.LookRotation( transform.position - Target.transform.position );
+        if(Target)
+            transform.rotation = Quaternion.LookRotation( transform.position - Target.transform.position );
     }
 }
