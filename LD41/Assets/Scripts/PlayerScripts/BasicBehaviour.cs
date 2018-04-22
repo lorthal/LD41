@@ -62,6 +62,9 @@ public class BasicBehaviour : MonoBehaviour
 		// Grounded verification variables.
 		groundedBool = Animator.StringToHash("Grounded");
 		colExtents = GetComponent<Collider>().bounds.extents;
+
+	    Cursor.lockState = CursorLockMode.Locked;
+	    Cursor.visible = false;
 	}
 
 	void Update()

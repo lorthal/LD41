@@ -59,7 +59,7 @@ public class Weapon : MonoBehaviour
 
     private bool CanShoot()
     {
-        return timer <= 0 && ammo > 0;
+        return timer <= 0 && ammo > 0 && MatchController.Instance.state != MatchController.State.Playing;
     }
 
     void Shoot()
