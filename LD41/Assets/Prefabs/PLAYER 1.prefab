@@ -2431,6 +2431,7 @@ MonoBehaviour:
   enemyPlayerLayer: Player2
   bulletPrefab: {fileID: 1705464813075676, guid: 48f639ba049f62642b5042f5c6a83641,
     type: 2}
+  maxAmmo: 5
   ammo: 2
   shootCooldown: 1
   bulletSpeed: 100
@@ -2470,6 +2471,7 @@ MonoBehaviour:
   sprintButton: Sprint2
   verticalButton: Vertical2
   horizontalButton: Horizontal2
+  weapon: {fileID: 114346903035839820}
 --- !u!114 &114609466435161860
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2498,9 +2500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35b46de857a587c469ac4d3b4b854a63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 1896401987643748}
   Target: {fileID: 0}
-  offsetY: 0.2
 --- !u!114 &114805417994518378
 MonoBehaviour:
   m_ObjectHideFlags: 1

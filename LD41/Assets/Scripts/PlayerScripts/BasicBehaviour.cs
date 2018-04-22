@@ -12,6 +12,7 @@ public class BasicBehaviour : MonoBehaviour
     public string verticalButton = "Vertical";
     public string horizontalButton = "Horizontal";
 
+    public Weapon weapon;
 
     private float h;                                      // Horizontal Axis.
 	private float v;                                      // Vertical Axis.
