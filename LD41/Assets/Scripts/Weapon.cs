@@ -44,7 +44,7 @@ public class Weapon : MonoBehaviour
             lookAtTarget.position = hit.point;
             transform.LookAt(lookAtTarget.position);
 
-            if (Input.GetButtonDown(fireButton))
+            if (Input.GetButtonDown(fireButton) || Input.GetAxisRaw(fireButton) >= 0.5f)
             {
                 if (CanShoot())
                 {
