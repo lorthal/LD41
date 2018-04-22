@@ -41,7 +41,14 @@ public class MissleExplosionController : MonoBehaviour
             Rigidbody rb = hit.GetComponent<Rigidbody>();
 
             if (rb != null)
-                rb.AddForce(20f *(rb.transform.position - explosionPos).normalized,ForceMode.Impulse);
+            {
+                rb.AddForce(20f * (rb.transform.position - explosionPos).normalized, ForceMode.Impulse);
+
+                if (hit.gameObject.CompareTag("Player"))
+                {
+                    rb.AddForce(15f * Vector3.up, ForceMode.Impulse);
+                }
+            }
 
             particle.Play();
             GetComponent<MeshRenderer>().enabled = false;

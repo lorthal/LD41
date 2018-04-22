@@ -28,7 +28,7 @@ public class MatchController : MonoBehaviour
 
     public State state { get; private set; }
 
-    private float startTimer;
+    public float startTimer { get; private set; }
     private float pauseTimer;
 
     private Transform Player1StartPosition, Player2StartPosition, BallStartPosition;
