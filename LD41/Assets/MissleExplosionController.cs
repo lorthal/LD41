@@ -8,26 +8,18 @@ public class MissleExplosionController : MonoBehaviour
     bool detonate;
     float timer;
     public float Radius = 6f;
-    // Use this for initialization
-    void Start()
-    {
-        if(detonate)
-        {
-            timer += Time.deltaTime;
-
-            if(timer > 1.0f)
-            {
-                Destroy(this.gameObject);
-            }
-        }
-    }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey("q"))
+        if (detonate)
         {
-            Explode();
+            timer += Time.deltaTime;
+
+            if (timer > 1.0f)
+            {
+                Destroy(this.gameObject);
+            }
         }
     }
 
@@ -40,7 +32,7 @@ public class MissleExplosionController : MonoBehaviour
     }
 
 
-    void Explode()
+    public void Explode()
     {
         Vector3 explosionPos = transform.position;
         Collider[] colliders = Physics.OverlapSphere(explosionPos, 10f);
