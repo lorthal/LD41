@@ -8,3 +8,9 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/MENU GLOWNE.unity
+    guid: 0aec9bd5d2164914e89562e27dc26ba1
+  - enabled: 1
+    path: Assets/Scenes/arena.unity
+    guid: 586407b15e0d34d4b903382f7a0f15b9
