@@ -84,11 +84,11 @@ public class MatchController : MonoBehaviour
         }
         if(state == State.End)
         {
-            end.active = true;
+            end.SetActive(true);
         }
         else
         {
-            end.active = false;
+            end.SetActive(false);
         }
     }
 

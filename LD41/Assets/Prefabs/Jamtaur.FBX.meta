@@ -159,7 +159,7 @@ ModelImporter:
     400150: Jamtaur
     2100000: 'Material #27'
     4300000: Jamtaur
-    7400000: Dachshund
+    7400000: walk
     7400002: idle
     9500000: //RootNode
     11100000: //RootNode
@@ -192,7 +192,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Dachshund
+      name: walk
       takeName: Dachshund
       firstFrame: 1
       lastFrame: 8
@@ -202,7 +202,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -230,7 +230,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -288,7 +288,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    rootMotionBoneName: Bn_Doge_Root
+    rootMotionBoneName: Bn_Human_Root
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 1
