@@ -108,6 +108,9 @@ public class MatchController : MonoBehaviour
         Player2.transform.position = Player2StartPosition.position;
         Player2.transform.rotation = Player2StartPosition.rotation;
 
+        Player1.GetComponent<BasicBehaviour>().weapon.ammo = 2;
+        Player2.GetComponent<BasicBehaviour>().weapon.ammo = 2;
+
         Ball.SetActive(true);
 
         Ball.transform.position = BallStartPosition.position;
