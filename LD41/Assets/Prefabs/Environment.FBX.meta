@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 8221460be1d96484e9e1fd599ffe8671
+timeCreated: 1524387579
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: ammunition001
+    100002: ammunition002
+    100004: ammunition003
+    100006: ammunitions
+    100008: board001
+    100010: board002
+    100012: //RootNode
+    100014: floor
+    100016: gate001
+    100018: gate002
+    100020: lattice001
+    100022: lattice002
+    100024: lattice003
+    100026: lattice004
+    100028: lattice005
+    100030: lattices
+    100032: pendulum
+    100034: pole001
+    100036: pole002
+    100038: pole003
+    100040: pole004
+    100042: pole005
+    100044: pole006
+    100046: pole007
+    100048: pole008
+    100050: pole009
+    100052: poles
+    100054: stairs001
+    100056: stairs002
+    100058: stairsFloor001
+    100060: stairsFloor002
+    100062: stairsFull001
+    100064: stairsFull002
+    400000: ammunition001
+    400002: ammunition002
+    400004: ammunition003
+    400006: ammunitions
+    400008: board001
+    400010: board002
+    400012: //RootNode
+    400014: floor
+    400016: gate001
+    400018: gate002
+    400020: lattice001
+    400022: lattice002
+    400024: lattice003
+    400026: lattice004
+    400028: lattice005
+    400030: lattices
+    400032: pendulum
+    400034: pole001
+    400036: pole002
+    400038: pole003
+    400040: pole004
+    400042: pole005
+    400044: pole006
+    400046: pole007
+    400048: pole008
+    400050: pole009
+    400052: poles
+    400054: stairs001
+    400056: stairs002
+    400058: stairsFloor001
+    400060: stairsFloor002
+    400062: stairsFull001
+    400064: stairsFull002
+    2100000: 'Material #3'
+    2100002: 'Material #18'
+    2100004: 'Material #17'
+    2100006: No Name
+    2100008: 'Material #4'
+    2100010: 'Material #5'
+    2100012: 'Material #20'
+    2100014: 'Material #21'
+    2300000: ammunition001
+    2300002: ammunition002
+    2300004: ammunition003
+    2300006: board001
+    2300008: board002
+    2300010: floor
+    2300012: gate001
+    2300014: gate002
+    2300016: lattice001
+    2300018: lattice002
+    2300020: lattice003
+    2300022: lattice004
+    2300024: lattice005
+    2300026: pendulum
+    2300028: pole001
+    2300030: pole002
+    2300032: pole003
+    2300034: pole004
+    2300036: pole005
+    2300038: pole006
+    2300040: pole007
+    2300042: pole008
+    2300044: pole009
+    2300046: stairs001
+    2300048: stairs002
+    2300050: stairsFloor001
+    2300052: stairsFloor002
+    3300000: ammunition001
+    3300002: ammunition002
+    3300004: ammunition003
+    3300006: board001
+    3300008: board002
+    3300010: floor
+    3300012: gate001
+    3300014: gate002
+    3300016: lattice001
+    3300018: lattice002
+    3300020: lattice003
+    3300022: lattice004
+    3300024: lattice005
+    3300026: pendulum
+    3300028: pole001
+    3300030: pole002
+    3300032: pole003
+    3300034: pole004
+    3300036: pole005
+    3300038: pole006
+    3300040: pole007
+    3300042: pole008
+    3300044: pole009
+    3300046: stairs001
+    3300048: stairs002
+    3300050: stairsFloor001
+    3300052: stairsFloor002
+    4300000: floor
+    4300002: board002
+    4300004: stairs002
+    4300006: stairsFloor002
+    4300008: stairsFloor001
+    4300010: stairs001
+    4300012: lattice001
+    4300014: lattice002
+    4300016: lattice003
+    4300018: lattice004
+    4300020: lattice005
+    4300022: pole001
+    4300024: pole002
+    4300026: pole003
+    4300028: pole004
+    4300030: pole005
+    4300032: pole006
+    4300034: pole007
+    4300036: pole008
+    4300038: pole009
+    4300040: pendulum
+    4300042: gate001
+    4300044: gate002
+    4300046: board001
+    4300048: ammunition002
+    4300050: ammunition003
+    4300052: ammunition001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
