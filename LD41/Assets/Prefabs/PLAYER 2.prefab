@@ -2389,7 +2389,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1862728725114362}
   serializedVersion: 2
-  m_Mass: 80
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -2497,7 +2497,7 @@ MonoBehaviour:
   maxAmmo: 5
   ammo: 2
   shootCooldown: 1
-  bulletSpeed: 100
+  bulletSpeed: 50
   fireButton: Fire1Joystick
 --- !u!114 &114779765657470664
 MonoBehaviour:
