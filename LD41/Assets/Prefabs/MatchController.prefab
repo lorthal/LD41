@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   end: {fileID: 0}
-  MatchTimeInSeconds: 120
+  MatchTimeInSeconds: 180
   TimeToStart: 3
   PauseTime: 2
   Player1: {fileID: 0}
