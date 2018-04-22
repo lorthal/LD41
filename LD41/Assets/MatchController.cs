@@ -15,6 +15,8 @@ public class MatchController : MonoBehaviour
 
     public static MatchController Instance;
 
+    public GameObject end;
+
     public float MatchTimeInSeconds;
     public float TimeToStart;
     public float PauseTime;
@@ -79,6 +81,14 @@ public class MatchController : MonoBehaviour
                 RestartAfterGoal();
             }
             pauseTimer -= Time.deltaTime;
+        }
+        if(state == State.End)
+        {
+            end.active = true;
+        }
+        else
+        {
+            end.active = false;
         }
     }
 

@@ -51,6 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaabd54619fb88141b1a14cd63ac0f31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  end: {fileID: 0}
   MatchTimeInSeconds: 120
   TimeToStart: 3
   PauseTime: 2
