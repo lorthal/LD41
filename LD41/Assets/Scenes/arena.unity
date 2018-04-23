@@ -2958,6 +2958,11 @@ Prefab:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114103564561281812, guid: 0bf707a0ad4443d458cf5e8985db0d81,
+        type: 2}
+      propertyPath: OnePlayer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0bf707a0ad4443d458cf5e8985db0d81, type: 2}
   m_IsPrefabParent: 0
