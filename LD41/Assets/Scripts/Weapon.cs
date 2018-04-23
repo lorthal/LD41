@@ -62,7 +62,7 @@ public class Weapon : MonoBehaviour
 
             if (Input.GetButtonDown(detonateButton) || Input.GetAxisRaw(detonateButton) >= 0.5f)
             {
-                if (bullet != null)
+                if (bullet != null && timer <= shootCooldown * 0.8f)
                 {
                     bullet.Explode();
                 }
