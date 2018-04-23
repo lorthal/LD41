@@ -2497,7 +2497,7 @@ MonoBehaviour:
   maxAmmo: 5
   ammo: 2
   shootCooldown: 1
-  bulletSpeed: 50
+  bulletSpeed: 500
   fireButton: Fire1Joystick
 --- !u!114 &114779765657470664
 MonoBehaviour:
