@@ -2434,7 +2434,7 @@ MonoBehaviour:
   maxAmmo: 5
   ammo: 2
   shootCooldown: 1
-  bulletSpeed: 200
+  bulletSpeed: 500
   fireButton: Fire1
 --- !u!114 &114376776567979536
 MonoBehaviour:
