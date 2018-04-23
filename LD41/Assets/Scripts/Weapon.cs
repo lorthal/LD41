@@ -13,6 +13,8 @@ public class Weapon : MonoBehaviour
     [Header("Shooting")]
     public GameObject bulletPrefab;
 
+    public Color ExplosionColor;
+
     public int maxAmmo = 5;
 
     public int ammo = 1;
@@ -65,6 +67,7 @@ public class Weapon : MonoBehaviour
     void Shoot()
     {
         GameObject rocket = Instantiate(bulletPrefab, rifleFront.position, Quaternion.LookRotation(rifleFront.forward));
+        rocket.GetComponent<MissleExplosionController>().color = ExplosionColor;
         ConstantForce force = rocket.AddComponent<ConstantForce>();
 
         force.force = -rifleFront.forward * bulletSpeed;

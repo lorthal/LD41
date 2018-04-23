@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class MissleExplosionController : MonoBehaviour
 {
-    public ParticleSystem particle;
+    public ParticleSystem explosionParticles;
     public AudioClip fly, explode;
-    public GameObject rocket;
+    public GameObject[] objectsToDisable;
     bool detonate;
     float timer;
     public float Radius = 6f;
+
+    [HideInInspector] public Color color;
 
     private AudioSource audioSource;
 
@@ -59,7 +61,7 @@ public class MissleExplosionController : MonoBehaviour
 
             if (rb != null)
             {
-                rb.AddForce(20f * (rb.transform.position - explosionPos).normalized, ForceMode.Impulse);
+                rb.AddExplosionForce(20f,explosionPos,Radius, 1, ForceMode.Impulse);
 
                 if (hit.gameObject.CompareTag("Player"))
                 {
@@ -68,14 +70,19 @@ public class MissleExplosionController : MonoBehaviour
             }
 
         }
-        particle.Play();
-        rocket.SetActive(false);
+        var main = explosionParticles.main;
+        main.startColor = color;
+        explosionParticles.Play();
+        foreach (var o in objectsToDisable)
+        {
+            o.SetActive(false);
+        }
         detonate = true;
         GetComponent<Rigidbody>().detectCollisions = false;
         timer = 1;
     }
 
-    private void OnDrawGizmosSelected()
+    private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
         //Use the same vars you use to draw your Overlap SPhere to draw your Wire Sphere.

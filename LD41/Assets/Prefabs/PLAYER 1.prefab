@@ -2431,6 +2431,7 @@ MonoBehaviour:
   enemyPlayerLayer: Player2
   bulletPrefab: {fileID: 1705464813075676, guid: 48f639ba049f62642b5042f5c6a83641,
     type: 2}
+  ExplosionColor: {r: 0.2392157, g: 0.28235295, b: 0.5568628, a: 1}
   maxAmmo: 5
   ammo: 2
   shootCooldown: 1
