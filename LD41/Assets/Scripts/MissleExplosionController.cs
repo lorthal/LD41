@@ -48,7 +48,7 @@ public class MissleExplosionController : MonoBehaviour
 
         if (Physics.Raycast(ray, 3, mask))
         {
-            Explode();
+            Explode(40f);
         }
     }
 
@@ -61,7 +61,7 @@ public class MissleExplosionController : MonoBehaviour
     }
 
 
-    public void Explode()
+    public void Explode(float explodeForce = 20f)
     {
         if (detonate) return;
 
@@ -83,7 +83,7 @@ public class MissleExplosionController : MonoBehaviour
                 {
                     rb.velocity = Vector3.zero;
                 }
-                rb.AddForce(20f * (rb.transform.position - explosionPos).normalized, ForceMode.Impulse);
+                rb.AddForce(explodeForce * (rb.transform.position - explosionPos).normalized, ForceMode.Impulse);
 
                 if (hit.gameObject.CompareTag("Player"))
                 {
