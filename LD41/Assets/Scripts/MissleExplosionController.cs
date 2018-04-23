@@ -5,21 +5,32 @@ using UnityEngine;
 public class MissleExplosionController : MonoBehaviour
 {
     public ParticleSystem particle;
+    public AudioClip fly, explode;
+    public GameObject rocket;
     bool detonate;
     float timer;
     public float Radius = 6f;
 
+    private AudioSource audioSource;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+        audioSource.clip = fly;
+        audioSource.loop = true;
+        audioSource.Play();
+
+        timer = 3;
+    }
+
     // Update is called once per frame
     void Update()
     {
-        if (detonate)
-        {
-            timer += Time.deltaTime;
+        timer -= Time.deltaTime;
 
-            if (timer > 1.0f)
-            {
-                Destroy(this.gameObject);
-            }
+        if (timer <= 0.0f)
+        {
+            Destroy(this.gameObject);
         }
     }
 
@@ -34,6 +45,12 @@ public class MissleExplosionController : MonoBehaviour
 
     public void Explode()
     {
+        audioSource.Stop();
+        if (explode != null)
+            audioSource.clip = explode;
+        audioSource.loop = false;
+        audioSource.Play();
+
         Vector3 explosionPos = transform.position;
         Collider[] colliders = Physics.OverlapSphere(explosionPos, 10f);
         foreach (Collider hit in colliders)
@@ -50,17 +67,18 @@ public class MissleExplosionController : MonoBehaviour
                 }
             }
 
-            particle.Play();
-            GetComponent<MeshRenderer>().enabled = false;
-            GetComponent<Collider>().enabled = false;
-            detonate = true;
         }
+        particle.Play();
+        rocket.SetActive(false);
+        detonate = true;
+        GetComponent<Rigidbody>().detectCollisions = false;
+        timer = 1;
     }
 
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
-     //Use the same vars you use to draw your Overlap SPhere to draw your Wire Sphere.
+        //Use the same vars you use to draw your Overlap SPhere to draw your Wire Sphere.
         Gizmos.DrawWireSphere(transform.position, 6f);
     }
 }
