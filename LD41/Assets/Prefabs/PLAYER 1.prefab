@@ -2437,6 +2437,7 @@ MonoBehaviour:
   shootCooldown: 1
   bulletSpeed: 500
   fireButton: Fire1
+  detonateButton: Aim2
 --- !u!114 &114376776567979536
 MonoBehaviour:
   m_ObjectHideFlags: 1

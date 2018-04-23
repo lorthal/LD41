@@ -21,11 +21,16 @@ public class Weapon : MonoBehaviour
     public float shootCooldown;
     public float bulletSpeed;
 
-    [Header("Controlls")] public string fireButton;
+    [Header("Controlls")]
+    public string fireButton;
+
+    public string detonateButton;
 
     private LayerMask layerMask;
 
     private float timer;
+
+    private MissleExplosionController bullet;
 
     void Start()
     {
@@ -54,6 +59,14 @@ public class Weapon : MonoBehaviour
                 }
                 Debug.DrawRay(rifleRay.origin, rifleRay.direction * 100, Color.red);
             }
+
+            if (Input.GetButtonDown(detonateButton) || Input.GetAxisRaw(detonateButton) >= 0.5f)
+            {
+                if (bullet != null)
+                {
+                    bullet.Explode();
+                }
+            }
         }
         timer -= Time.deltaTime;
 
@@ -67,7 +80,8 @@ public class Weapon : MonoBehaviour
     void Shoot()
     {
         GameObject rocket = Instantiate(bulletPrefab, rifleFront.position, Quaternion.LookRotation(rifleFront.forward));
-        rocket.GetComponent<MissleExplosionController>().color = ExplosionColor;
+        bullet = rocket.GetComponent<MissleExplosionController>();
+        bullet.color = ExplosionColor;
         ConstantForce force = rocket.AddComponent<ConstantForce>();
 
         force.force = -rifleFront.forward * bulletSpeed;

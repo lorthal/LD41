@@ -15,6 +15,8 @@ public class MissleExplosionController : MonoBehaviour
 
     private AudioSource audioSource;
 
+    private LayerMask mask;
+
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -23,6 +25,10 @@ public class MissleExplosionController : MonoBehaviour
         audioSource.Play();
 
         timer = 3;
+
+        mask = 1 << LayerMask.NameToLayer("Bullet");
+        mask |= 1 << LayerMask.NameToLayer("Weapons");
+        mask = ~mask;
     }
 
     // Update is called once per frame
@@ -33,6 +39,16 @@ public class MissleExplosionController : MonoBehaviour
         if (timer <= 0.0f)
         {
             Destroy(this.gameObject);
+        }
+    }
+
+    void FixedUpdate()
+    {
+        Ray ray = new Ray(transform.position, -transform.forward);
+
+        if (Physics.Raycast(ray, 3, mask))
+        {
+            Explode();
         }
     }
 
@@ -47,6 +63,8 @@ public class MissleExplosionController : MonoBehaviour
 
     public void Explode()
     {
+        if (detonate) return;
+
         audioSource.Stop();
         if (explode != null)
             audioSource.clip = explode;
@@ -61,7 +79,7 @@ public class MissleExplosionController : MonoBehaviour
 
             if (rb != null)
             {
-                rb.AddExplosionForce(20f,explosionPos,Radius, 1, ForceMode.Impulse);
+                rb.AddExplosionForce(20f, explosionPos, Radius, 1, ForceMode.Impulse);
 
                 if (hit.gameObject.CompareTag("Player"))
                 {

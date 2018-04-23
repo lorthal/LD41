@@ -26,24 +26,24 @@ public class AimBehaviourBasic : GenericBehaviour
         if (MatchController.Instance.state != MatchController.State.Playing) return;
 
         // Activate/deactivate aim by input.
-        if (Input.GetAxisRaw(aimButton) != 0 && !aim)
-        {
-            StartCoroutine(ToggleAimOn());
-        }
-        else if (aim && Input.GetAxisRaw(aimButton) == 0)
-        {
-            StartCoroutine(ToggleAimOff());
-        }
+        //if (Input.GetAxisRaw(aimButton) != 0 && !aim)
+        //{
+        //    StartCoroutine(ToggleAimOn());
+        //}
+        //else if (aim && Input.GetAxisRaw(aimButton) == 0)
+        //{
+        //    StartCoroutine(ToggleAimOff());
+        //}
 
         // No sprinting while aiming.
         canSprint = !aim;
 
         // Toggle camera aim position left or right, switching shoulders.
-        if (aim && Input.GetButtonDown(shoulderButton))
-        {
-            aimCamOffset.x = aimCamOffset.x * (-1);
-            aimPivotOffset.x = aimPivotOffset.x * (-1);
-        }
+        //if (aim && Input.GetButtonDown(shoulderButton))
+        //{
+        //    aimCamOffset.x = aimCamOffset.x * (-1);
+        //    aimPivotOffset.x = aimPivotOffset.x * (-1);
+        //}
 
         // Set aim boolean on the Animator Controller.
         behaviourManager.GetAnim.SetBool(aimBool, aim);
