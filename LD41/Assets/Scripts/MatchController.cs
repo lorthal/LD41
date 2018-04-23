@@ -23,6 +23,8 @@ public class MatchController : MonoBehaviour
 
     public GameObject Player1, Player2, Ball;
 
+    public bool OnePlayer;
+
     public int Player1Score { get; private set; }
     public int Player2Score { get; private set; }
 
@@ -47,7 +49,8 @@ public class MatchController : MonoBehaviour
         state = State.Pause;
         TimeLeft = MatchTimeInSeconds;
         Player1StartPosition = Player1.transform.Clone();
-        Player2StartPosition = Player2.transform.Clone();
+        if (!OnePlayer)
+            Player2StartPosition = Player2.transform.Clone();
         BallStartPosition = Ball.transform.Clone();
         ballRigidbody = Ball.GetComponent<Rigidbody>();
         RestartAfterGoal();
@@ -108,18 +111,21 @@ public class MatchController : MonoBehaviour
     private void RestartAfterGoal()
     {
         Player1.GetComponent<MoveBehaviour>().Reset();
-        Player2.GetComponent<MoveBehaviour>().Reset();
         Player1.GetComponent<BasicBehaviour>().Reset();
-        Player2.GetComponent<BasicBehaviour>().Reset();
-
         Player1.transform.position = Player1StartPosition.position;
         Player1.transform.rotation = Player1StartPosition.rotation;
-
-        Player2.transform.position = Player2StartPosition.position;
-        Player2.transform.rotation = Player2StartPosition.rotation;
-
         Player1.GetComponent<BasicBehaviour>().weapon.ammo = 2;
-        Player2.GetComponent<BasicBehaviour>().weapon.ammo = 2;
+
+        if (!OnePlayer)
+        {
+            Player2.GetComponent<MoveBehaviour>().Reset();
+            Player2.GetComponent<BasicBehaviour>().Reset();
+
+            Player2.transform.position = Player2StartPosition.position;
+            Player2.transform.rotation = Player2StartPosition.rotation;
+
+            Player2.GetComponent<BasicBehaviour>().weapon.ammo = 2;
+        }
 
         Ball.SetActive(true);
 

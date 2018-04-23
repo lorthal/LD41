@@ -9,6 +9,8 @@ public class GameUIController : MonoBehaviour {
     public Text timeToStartText;
     public Text player1Score;
     public Text player2Score;
+
+    public bool OnePlayer;
 	// Use this for initialization
 	void Start () {
 		
@@ -43,7 +45,8 @@ public class GameUIController : MonoBehaviour {
         }
 
         player1Score.text = MatchController.Instance.Player1Score.ToString();
-        player2Score.text = MatchController.Instance.Player2Score.ToString();
+        if (!OnePlayer)
+            player2Score.text = MatchController.Instance.Player2Score.ToString();
 
     }
 }
