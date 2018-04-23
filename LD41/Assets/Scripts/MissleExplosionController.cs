@@ -79,7 +79,11 @@ public class MissleExplosionController : MonoBehaviour
 
             if (rb != null)
             {
-                rb.AddExplosionForce(20f, explosionPos, Radius, 1, ForceMode.Impulse);
+                if (rb.gameObject.CompareTag("Ball"))
+                {
+                    rb.velocity = Vector3.zero;
+                }
+                rb.AddForce(20f * (rb.transform.position - explosionPos).normalized, ForceMode.Impulse);
 
                 if (hit.gameObject.CompareTag("Player"))
                 {

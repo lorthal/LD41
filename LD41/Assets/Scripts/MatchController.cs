@@ -38,6 +38,8 @@ public class MatchController : MonoBehaviour
     private Transform Player1StartPosition, Player2StartPosition, BallStartPosition;
     private Rigidbody ballRigidbody;
 
+    private AudioSource audioSource;
+
     void Awake()
     {
         Instance = this;
@@ -45,7 +47,7 @@ public class MatchController : MonoBehaviour
 
     void Start()
     {
-
+        audioSource = GetComponent<AudioSource>();
         state = State.Pause;
         TimeLeft = MatchTimeInSeconds;
         Player1StartPosition = Player1.transform.Clone();
@@ -105,6 +107,7 @@ public class MatchController : MonoBehaviour
         {
             Player2Score++;
         }
+        audioSource.Play();
         Pause();
     }
 
