@@ -151,7 +151,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4060194323744014, guid: c1f6b3ed4d2d21d4594c300ae47fc02b, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 114674355558381826, guid: c1f6b3ed4d2d21d4594c300ae47fc02b,
         type: 2}
@@ -240,6 +240,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2dc4a785eb5faa44db339a779ab7a8ae, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -306,7 +311,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: -51.703003, y: -179.99998, z: 0}
 --- !u!1001 &200637325
 Prefab:
@@ -367,6 +372,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2dc4a785eb5faa44db339a779ab7a8ae, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -434,6 +444,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 441a106116d089144a2cbb4d377a3c77, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -496,6 +511,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 441a106116d089144a2cbb4d377a3c77, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -558,6 +578,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 441a106116d089144a2cbb4d377a3c77, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -632,6 +657,11 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 2.54
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 441a106116d089144a2cbb4d377a3c77, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -682,7 +712,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4075917028139954, guid: b85f122e2c718474fb12c08383f38161, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 114753881626104452, guid: b85f122e2c718474fb12c08383f38161,
         type: 2}
@@ -856,7 +886,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4854833356043070, guid: d7b4621d27a96e043bfa987776eeab84, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1518634085922478, guid: d7b4621d27a96e043bfa987776eeab84, type: 2}
       propertyPath: m_IsActive
@@ -936,6 +966,11 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 2.54
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 441a106116d089144a2cbb4d377a3c77, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -998,6 +1033,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2dc4a785eb5faa44db339a779ab7a8ae, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -1065,6 +1105,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2dc4a785eb5faa44db339a779ab7a8ae, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -1073,7 +1118,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1100034572}
     m_Modifications:
     - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
       propertyPath: m_LocalPosition.x
@@ -1105,11 +1150,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
       propertyPath: m_LocalScale.x
-      value: 6.7131295
+      value: 6.7131305
       objectReference: {fileID: 0}
     - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
       propertyPath: m_LocalScale.y
@@ -1117,12 +1162,17 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
       propertyPath: m_LocalScale.z
-      value: 6.713127
+      value: 6.7131286
       objectReference: {fileID: 0}
     - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -30.864002
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 441a106116d089144a2cbb4d377a3c77, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -1218,7 +1268,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &714474299 stripped
 Transform:
@@ -1306,6 +1356,11 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 2.54
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 441a106116d089144a2cbb4d377a3c77, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -1489,6 +1544,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 441a106116d089144a2cbb4d377a3c77, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -1556,6 +1616,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2dc4a785eb5faa44db339a779ab7a8ae, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -1623,6 +1688,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 441a106116d089144a2cbb4d377a3c77, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -1663,7 +1733,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4770749194951074, guid: 795ab0fed96493a4abc763900bc67033, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 114156594023746096, guid: 795ab0fed96493a4abc763900bc67033,
         type: 2}
@@ -1707,7 +1777,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -34.053333
+      value: -33.5
       objectReference: {fileID: 0}
     - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1715,7 +1785,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 68.243515
+      value: 72.1
       objectReference: {fileID: 0}
     - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1757,9 +1827,19 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 441a106116d089144a2cbb4d377a3c77, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &1071871981 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d,
+    type: 2}
+  m_PrefabInternal: {fileID: 650042018}
 --- !u!1001 &1082278016
 Prefab:
   m_ObjectHideFlags: 0
@@ -1797,7 +1877,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4464916694281358, guid: 3d24574169a207349b6d8d6aa7706462, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d24574169a207349b6d8d6aa7706462, type: 2}
@@ -1824,7 +1904,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1100034571}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 6.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1962376578}
@@ -1857,8 +1937,10 @@ Transform:
   - {fileID: 1529877843}
   - {fileID: 1222347294}
   - {fileID: 1400422062}
+  - {fileID: 1071871981}
+  - {fileID: 1560114477}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1104156436 stripped
 GameObject:
@@ -1902,7 +1984,7 @@ Transform:
   - {fileID: 2102138087}
   - {fileID: 500886684}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1138196167
 Prefab:
@@ -1963,6 +2045,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 441a106116d089144a2cbb4d377a3c77, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -2025,6 +2112,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2dc4a785eb5faa44db339a779ab7a8ae, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -2075,7 +2167,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400148, guid: 8a72495436bf9cd4e9367ba34c3b531c, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 400148, guid: 8a72495436bf9cd4e9367ba34c3b531c, type: 3}
       propertyPath: m_LocalScale.x
@@ -2146,7 +2238,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4113201648047136, guid: b2555f2b6af7ff3448bc738d891c195b, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114118622933426534, guid: b2555f2b6af7ff3448bc738d891c195b,
         type: 2}
@@ -2239,6 +2331,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2dc4a785eb5faa44db339a779ab7a8ae, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -2311,6 +2408,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 441a106116d089144a2cbb4d377a3c77, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -2323,7 +2425,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -55.8
+      value: -53.2
       objectReference: {fileID: 0}
     - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2331,7 +2433,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -52.1
+      value: -56.3
       objectReference: {fileID: 0}
     - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2373,6 +2475,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2dc4a785eb5faa44db339a779ab7a8ae, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -2435,6 +2542,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 441a106116d089144a2cbb4d377a3c77, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -2501,7 +2613,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -51.703003, y: 0, z: 0}
 --- !u!1001 &1385416468
 Prefab:
@@ -2540,7 +2652,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400148, guid: 8a72495436bf9cd4e9367ba34c3b531c, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 400148, guid: 8a72495436bf9cd4e9367ba34c3b531c, type: 3}
       propertyPath: m_LocalScale.x
@@ -2575,6 +2687,78 @@ Transform:
   m_PrefabParentObject: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d,
     type: 2}
   m_PrefabInternal: {fileID: 1001298952}
+--- !u!1001 &1560114476
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1100034572}
+    m_Modifications:
+    - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -81.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -6.5899997
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.9999703
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -0.007712906
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
+      propertyPath: m_RootOrder
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 6.713132
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 6.71313
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 6.713132
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180.88399
+      objectReference: {fileID: 0}
+    - target: {fileID: 1896806680647082, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
+      propertyPath: m_Name
+      value: Jamtaur public (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2dc4a785eb5faa44db339a779ab7a8ae, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1560114477 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1560114476}
 --- !u!1001 &1566063992
 Prefab:
   m_ObjectHideFlags: 0
@@ -2646,6 +2830,11 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 2.54
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2dc4a785eb5faa44db339a779ab7a8ae, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -2694,7 +2883,7 @@ Prefab:
     - target: {fileID: 224965838108076590, guid: 0bf707a0ad4443d458cf5e8985db0d81,
         type: 2}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 224965838108076590, guid: 0bf707a0ad4443d458cf5e8985db0d81,
         type: 2}
@@ -2795,7 +2984,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4253263936519420, guid: 4d57c6fdc7dd8184f9da0436669e0554, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4d57c6fdc7dd8184f9da0436669e0554, type: 2}
@@ -2859,6 +3048,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 441a106116d089144a2cbb4d377a3c77, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -2871,7 +3065,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -35.265953
+      value: -32.665955
       objectReference: {fileID: 0}
     - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2879,7 +3073,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -68.279655
+      value: -72.47966
       objectReference: {fileID: 0}
     - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2921,6 +3115,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2dc4a785eb5faa44db339a779ab7a8ae, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -2933,7 +3132,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -78.1
+      value: -72.5
       objectReference: {fileID: 0}
     - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2941,7 +3140,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -22.6
+      value: -35.9
       objectReference: {fileID: 0}
     - target: {fileID: 4493242297856168, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2983,6 +3182,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2dc4a785eb5faa44db339a779ab7a8ae, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -3023,7 +3227,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4411581890241642, guid: 68fd3c8bb4cfe0047a6a21f43da562e0, type: 2}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 68fd3c8bb4cfe0047a6a21f43da562e0, type: 2}
@@ -3075,7 +3279,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4086215101923726, guid: 3d9b1f62be853c64fb08ee97fdab13fe, type: 2}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 114760303913216104, guid: 3d9b1f62be853c64fb08ee97fdab13fe,
         type: 2}
@@ -3202,7 +3406,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4113201648047136, guid: b2555f2b6af7ff3448bc738d891c195b, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114118622933426534, guid: b2555f2b6af7ff3448bc738d891c195b,
         type: 2}
@@ -3250,7 +3454,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1837090268
 Prefab:
@@ -3311,6 +3515,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 441a106116d089144a2cbb4d377a3c77, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -3373,6 +3582,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2dc4a785eb5faa44db339a779ab7a8ae, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -3445,6 +3659,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2dc4a785eb5faa44db339a779ab7a8ae, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -3518,7 +3737,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1980393567
 Prefab:
@@ -3621,6 +3840,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2dc4a785eb5faa44db339a779ab7a8ae, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -3671,7 +3895,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4444880355967306, guid: 9b97f23454ca221449aabfd07f37bb15, type: 2}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9b97f23454ca221449aabfd07f37bb15, type: 2}
@@ -3745,6 +3969,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2dc4a785eb5faa44db339a779ab7a8ae, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
@@ -3858,6 +4087,11 @@ Prefab:
       propertyPath: m_Name
       value: Jamtaur public (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 137793914977175078, guid: 530a2f467656e3e4c83ab055db4ce62d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 441a106116d089144a2cbb4d377a3c77, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 530a2f467656e3e4c83ab055db4ce62d, type: 2}
   m_IsPrefabParent: 0
