@@ -220,7 +220,7 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1213443586470792}
   serializedVersion: 5
-  lengthInSec: 1.48
+  lengthInSec: 0.5
   simulationSpeed: 0.4
   stopAction: 0
   looping: 0
@@ -273,14 +273,14 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1126018077
+  randomSeed: 613608175
   InitialModule:
     serializedVersion: 3
     enabled: 1
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1.14
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -960,7 +960,7 @@ ParticleSystem:
       cycleCount: 1
       repeatInterval: 1.57
     - serializedVersion: 2
-      time: 0.1
+      time: 0.0001
       countCurve:
         serializedVersion: 2
         minMaxState: 0
@@ -1005,7 +1005,7 @@ ParticleSystem:
       cycleCount: 1
       repeatInterval: 1.57
     - serializedVersion: 2
-      time: 0.2
+      time: 0.0001
       countCurve:
         serializedVersion: 2
         minMaxState: 0
@@ -1050,7 +1050,7 @@ ParticleSystem:
       cycleCount: 1
       repeatInterval: 0.3
     - serializedVersion: 2
-      time: 0.25
+      time: 0.0001
       countCurve:
         serializedVersion: 2
         minMaxState: 0
@@ -3814,7 +3814,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1658340877
+  randomSeed: -1624061721
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -7310,7 +7310,7 @@ ParticleSystemRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3e9993b2734a3f645a2dc81a4103e0c1, type: 2}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -7364,7 +7364,7 @@ ParticleSystemRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3e9993b2734a3f645a2dc81a4103e0c1, type: 2}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
