@@ -42,8 +42,8 @@ public class MoveBehaviour : GenericBehaviour
 		if (!jump && Input.GetButtonDown(jumpButton) && behaviourManager.IsCurrentBehaviour(this.behaviourCode) && !behaviourManager.IsOverriding())
 		{
 			jump = true;
-            Debug.Log("sending position");
-            GameObject.FindGameObjectWithTag("Client").GetComponent<Client>().client._socket.Send(new PositionPacketSend(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z).Data);
+            //Debug.Log("sending position");
+            //GameObject.FindGameObjectWithTag("Client").GetComponent<Client>().client._socket.Send(new PositionPacketSend(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z).Data);
 		}
 	}
 
