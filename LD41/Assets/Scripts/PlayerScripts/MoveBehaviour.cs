@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Assets.Networking.Packets.Packet;
+using UnityEngine;
 
 // MoveBehaviour inherits from GenericBehaviour. This class corresponds to basic walk and run behaviour, it is the default behaviour.
 [RequireComponent(typeof(Animator))]
@@ -17,6 +18,7 @@ public class MoveBehaviour : GenericBehaviour
 	private int groundedBool;                       // Animator variable related to whether or not the player is on ground.
 	private bool jump;                              // Boolean to determine whether or not the player started a jump.
 	private bool isColliding;                       // Boolean to determine if the player has collided with an obstacle.
+    public string clientToken;
 
 	// Start is always called after any Awake functions.
 	void Start() 
@@ -40,6 +42,8 @@ public class MoveBehaviour : GenericBehaviour
 		if (!jump && Input.GetButtonDown(jumpButton) && behaviourManager.IsCurrentBehaviour(this.behaviourCode) && !behaviourManager.IsOverriding())
 		{
 			jump = true;
+            Debug.Log("sending position");
+            GameObject.FindGameObjectWithTag("Client").GetComponent<Client>().client._socket.Send(new PositionPacketSend(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z).Data);
 		}
 	}
 

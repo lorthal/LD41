@@ -1,0 +1,7 @@
+C:\Users\togab1\Documents\Repo\LD41\HundServer\HundServer\bin\Debug\HundServer.exe.config
+C:\Users\togab1\Documents\Repo\LD41\HundServer\HundServer\bin\Debug\HundServer.exe
+C:\Users\togab1\Documents\Repo\LD41\HundServer\HundServer\bin\Debug\HundServer.pdb
+C:\Users\togab1\Documents\Repo\LD41\HundServer\HundServer\obj\Debug\HundServer.csprojResolveAssemblyReference.cache
+C:\Users\togab1\Documents\Repo\LD41\HundServer\HundServer\obj\Debug\HundServer.csproj.CoreCompileInputs.cache
+C:\Users\togab1\Documents\Repo\LD41\HundServer\HundServer\obj\Debug\HundServer.exe
+C:\Users\togab1\Documents\Repo\LD41\HundServer\HundServer\obj\Debug\HundServer.pdb
